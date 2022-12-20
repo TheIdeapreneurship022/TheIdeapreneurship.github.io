@@ -371,7 +371,7 @@ header .fa-solid{
         margin-left: 0px;
     }
     .photos img:hover{
-        border: orange solid ;
+        border: 5px orange solid ;
     }
     .team-list{
     grid-gap:10px ;
