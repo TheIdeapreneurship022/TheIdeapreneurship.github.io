@@ -178,19 +178,37 @@ padding: 60px 0;
 #team{
     padding-top: 60px;
 }
+.events{
+    margin-left: 12px;
+}
+.main{
+    margin-left: 12px;
 
+}
+.main img{
+    width: 100%;
+    border-radius: 10px;
+
+}
 .events img{
     width: 100%;
     border-radius: 10px;
 }
-.team-list{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap:40px ;
-    margin-top: 30px ;
+.deg{
+    text-align: center;
+    text-decoration:underline;
+    font-size: 30px;
+
 }
-.team-list div{
-    background:#fff ;
+.splimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+}
+
+.splimg div{
+    /* background:#fff ; */
     padding: 10px;
     font-size: 13px;
     color: black;
@@ -199,24 +217,11 @@ padding: 60px 0;
     transition: background 0.5s, tranform 0.5s;
 }
 
-.team-list div:hover{
+.splimg div:hover{
     background: orange;
-    transform: scale(1.1);  
+    transform: scale(1.1);
 }
-.btn{
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid orange;
-    padding: 14px 50px ;
-    border-radius: 6px;
-    text-decoration: none;
-    color: white;
-    transition: background 0.5s;
-}
-.btn:hover{
-    background-color: orange;
-}
+
 /* *******************************contact***************************** */
 .contentLeft{
     flex-basis: 35%;
@@ -376,6 +381,10 @@ header .fa-solid{
     .team-list{
     grid-gap:10px ;
         
+    }
+    .main{
+        margin-left: 0;
+    
     }
     /* .serviceslist{
         --num-cols: 3;
